@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script language="javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+$("#elemento").mouseover(function() {
+$("#resposta").html("<div style=\"background-color: green;\">Mouse está em cima!</div>");
+});      
+$("#elemento").mouseout(function() {
+$("#resposta").html("<div style=\"background-color: red;\">Mouse não está em cima</div>");
+});      
+
+});      
+</script>
+</head>
+<div id="elemento">texto</div>
+<div id="resposta"></div>
+<body>
+</body>
+</html>

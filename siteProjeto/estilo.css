@@ -1,0 +1,351 @@
+﻿@charset "utf-8";
+* {
+    font-family:SansSerif;    
+}
+
+#Geral {
+	background-color: #7900FF;
+	height: auto;
+	width: 1024px;
+	margin:auto;
+	
+}
+#Logo {
+	background-color: #FF0004;
+	float: left;
+	height: 250px;
+	width: 250px;
+	background-image:url(imagens/logo%20-%20380x380.jpg);
+	border-radius:8px;
+	}
+#Banner {
+	background-image: url(imagens/banner.jpg);
+	float: left;
+	height: 250px;
+	width: 774px;
+	border-radius:10px;
+}
+#Menu {
+    z-index:500;
+    
+	height: 50px;
+	width: 1024px;
+	float:left;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#Botao {
+	background-image:url(imagens/botao.jpg);
+	float: left;
+	height: 50px;
+	width: 256px;
+	border-radius:4px;
+}
+    #Botao:hover {
+        background-image:url(imagens/botaoOver.jpg)
+    }
+#Botao2 {
+	background-image:url(imagens/cursos.jpg);
+	float: left;
+	height: 50px;
+	width: 256px;
+	border-radius:4px;
+}
+    #Botao2:hover {
+        background-image:url(imagens/cursosOver.jpg)
+    }
+#Botao3 {
+	background-image:url(imagens/quem%20somos.jpg);
+	float: left;
+	height: 50px;
+	width: 256px;
+	border-radius:4px;
+}
+#Botao3:hover {
+        background-image:url(imagens/quem%20somosOver.jpg)
+    }
+#Botao4 {
+	background-image:url(imagens/contatos.jpg);
+	float: left;
+	height: 50px;
+	width: 256px;
+	border-radius:4px;
+}
+#Botao4:hover {
+        background-image:url(imagens/contatosOver.jpg)
+    }
+#Conteudo {
+	background-color: darkred;
+	height: 600px;
+	width: 1024px;
+	float:left;
+    z-index:1;
+}
+.ConteudoSecundario {
+	background-color: red;
+	float: left;
+	height: 240px;
+	width: 240px;
+	margin-left:13px;
+	margin-top:10px;
+    background-image:url(imagens/imagem.jpg)
+}
+
+.ConteudoSecundarioLink {
+    width:240px;
+    height:60px;
+    float:left;
+    
+    margin-left:13px;    
+}
+.ConteudoSecundarioLink a:hover {
+    color:white;
+    
+}
+#ConteudoGeral {
+	background-image:url(imagens/bg%20menu%20blog2.jpg);    
+	float: left;
+	height: 320px;
+	width: 1024px;
+    text-align:center;
+    
+    
+}
+#Rodape {
+	background-image:url(imagens/rodape.jpg);
+	float: left;
+	height: 300px;
+	width: 1024px;
+    
+}
+    #Rodape a:hover {
+        color:white;
+    }
+
+#ConteudoRodape1 {    
+    float:left;
+    height:280px;
+    width:240px;
+    margin-left:13px;
+	margin-top:10px;    
+    
+}
+#ConteudoRodape2 {
+    
+    float:left;
+    height:280px;
+    width:240px;
+    margin-left:13px;
+	margin-top:10px;
+}
+#ConteudoRodape3 {
+    
+    float:left;
+    height:280px;
+    width:240px;
+    margin-left:13px;
+	margin-top:10px;
+}
+#ConteudoRodape4 {
+    
+    float:left;
+    height:280px;
+    width:240px;
+    margin-left:13px;
+	margin-top:10px;
+}
+
+#slide { 
+width: 1024px;
+overflow: hidden;
+height: 600px;
+margin:auto;
+box-shadow: 0 0 8px #000;
+position: relative; 
+}   
+#slide img { 
+
+z-index: 1;
+display: none;
+left: 0; 
+}
+#slide p {
+	 z-index:2;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 padding: 10px;
+	 font-family: Arial;
+	 font-size: 14px;
+	 background: rgba(0,0,0,0.5);
+	 color: #fff; 
+	 }
+.voltarTopo {
+    /*background: none repeat scroll 0 0 #000000 !important;*/
+    bottom: 20px !important;
+    color: #FFFFFF;
+    display: block;
+    background-image:url(imagens/voltarTopo.jpg);
+    font-size: 10px;
+    font-weight: bold;
+    height: 100px;
+    position: fixed;
+    right: 30px;
+    text-transform: uppercase;
+    width: 100px;
+}
+    .voltarTopo:hover {
+        background-image:url(imagens/voltarTopoOver.jpg);
+    }
+
+
+ul {
+    list-style:none
+}
+
+#ConteudoCursos {
+    width:1024px;
+    height:600px;
+    float:left;
+    background-image:url(imagens/bg2.jpg);
+    
+}
+
+#MenuCursos {
+    width:256px;
+    height:600px;
+    float:left;
+    
+}
+#Ingles {
+    width:256px;
+    height:50px;
+    float:left;
+    background-color:yellow;
+    margin-top:10px;
+}
+#Espanhol {
+    width:256px;
+    height:50px;
+    float:left;
+    background-color:brown;
+    margin-top:10px;
+}
+#Mandarim {
+    width:256px;
+    height:50px;
+    float:left;    
+    margin-top:10px;
+}
+#Alemao {
+    width:256px;
+    height:50px;
+    float:left;
+    background-color:white;
+    margin-top:10px;
+}
+#Japones {
+    width:256px;
+    height:50px;
+    float:left;
+    background-color:magenta;
+    margin-top:10px;
+}
+#Frances {
+    width:256px;
+    height:50px;
+    float:left;
+    background-color:blue;
+    margin-top:10px;
+}
+#Italiano {
+    width:256px;
+    height:50px;
+    float:left;
+    background-color:red;
+    margin-top:10px;
+}
+#MenuCursos div img {
+    width:256px;
+    height:50px;
+}
+
+#DescricaoCursos {
+    width:768px;
+    height:600px;
+    float:left;
+    
+}
+#DescricaoMandarim {
+    width:758px;
+    height:200px;
+    float:left;
+    margin-left:5px;
+    
+    
+}
+.Descricao {
+    width:246px;
+    height:190px;
+    float:left;
+    margin-top:5px;
+    margin-left:8px;
+    
+}
+
+.Titulos {
+    
+    text-align:center;
+    font-size:large;
+}
+.Corpos {
+    padding-left:10px;
+    font-style:italic;
+}
+
+#Sobrenos {
+    width:512px;
+    height:400px;
+    float:left;
+    background-image:url(imagens/bg.jpg);
+}
+#ImagemColegio {
+    width:1024px;
+    height:600px;
+    float:left;
+    background-color:darkred;
+    background-image:url(imagens/entradaescola.jpg);
+}
+#Mapas {
+    width:512px;
+    height:400px;
+    float:left;
+    background-color:blue;
+}
+#ConteudoContato {
+    float:left;
+    width:1024px;
+    height:300px;
+    background-image:url(imagens/bg2.jpg);
+}
+
+#Formulario {
+    float:left;
+    width:512px;
+    height:300px;
+    
+
+}
+#Informacoes {    
+    float:left;
+    width:512px;
+    height:300px;
+}
+
+input {
+    width:250px;
+    border-radius:8px;    
+    margin-left:25%;
+    align-content:center;
+}
